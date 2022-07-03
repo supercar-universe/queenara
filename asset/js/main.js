@@ -9,6 +9,9 @@ let header = $("#header"),
   ($(".mobile_bar").onclick = () => {
     $(".nav").classList.toggle("mobile_show");
   });
+$(".scroll_top").onclick = () => {
+  window.scrollTo(0, 0);
+};
 let $swiper = $(".swiper-container"),
   $bottomSlide = null,
   $bottomSlideContent = null,
