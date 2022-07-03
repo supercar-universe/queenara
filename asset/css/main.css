@@ -608,7 +608,9 @@ strong {
   }
   .description_container {
     margin-top: -5.5rem;
+    padding-top: 2rem;
     width: 100%;
+    border-radius: 0;
   }
   .description_item {
     padding: 5rem 0;
@@ -651,10 +653,10 @@ strong {
     height: 50rem;
   }
   .slider .swiper-slide > img {
-    height: 20rem;
+    height: 25rem;
   }
   .section_slider {
-    height: 20rem;
+    height: 25rem;
   }
   .section_footer {
     width: 100%;
@@ -665,13 +667,17 @@ strong {
     left: 0;
     font-size: 1.2rem;
     padding: 1rem;
-    top: 0rem;
+    top: 2rem;
   }
   .section_img-container:nth-child(2) > .section_img-title {
     flex-direction: column;
     width: 100%;
   }
-
+  .swiper-button-next,
+  .swiper-button-prev {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+  }
   .section_img-container::before {
     content: "";
     position: absolute;
@@ -699,6 +705,9 @@ strong {
   }
   .s1_item > img {
     width: 15rem;
+  }
+  .section_img-title {
+    top: 0rem;
   }
 }
 /* _______________________SCROLLBAR_____________________________ */
