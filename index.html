@@ -10,18 +10,19 @@
   <body>
     <div id="queen_nara">
       <section id="header" class="fixed">
+        <div class="mobile_bar"></div>
         <img
           src="./asset/img/logo-top.png"
           alt="logo queennara"
           class="header_logo"
         />
-        <ul class="nav flex_center">
+        <ul class="nav mobile_show flex_center">
           <li class="nav_item"><a href="#">Tổng quan</a></li>
           <li class="nav_item"><a href="#s2">vị trí</a></li>
           <li class="nav_item"><a href="#s3">tiện ích</a></li>
-          <li class="nav_item"><a href="#s6">Sản phẩm</a></li>
-          <li class="nav_item"><a href="#s7">Tiến độ</a></li>
-          <li class="nav_item"><a href="#s8">thư viện</a></li>
+          <li class="nav_item"><a href="#s5">Sản phẩm</a></li>
+          <li class="nav_item"><a href="#s6">Tiến độ</a></li>
+          <li class="nav_item"><a href="#s7">thư viện</a></li>
           <li class="nav_item">
             <a class="view360" href="#view360">
               <img src="./asset/img/360view.png" alt="view360 queennara" />
@@ -57,7 +58,7 @@
             />
             <div class="description_item">
               <div class="description_content">
-                <ul class="description_list">
+                <ul class="description_content-list">
                   <li>
                     <strong>Tên dự án:</strong> Khu đô thị nghỉ dưỡng phức hợp
                     La Queenara
@@ -153,7 +154,7 @@
               <img
                 src="./asset/img/title-2.png"
                 alt=""
-                class="description_footer-title"
+                class="description_footer-title title_image"
               />
               <p>
                 Tọa lạc tại vị trí mắt xích trên cung đường biển tỷ đô kết nối
@@ -164,10 +165,11 @@
           </div>
         </div>
       </section>
-      <section id="s3" class="flex_center">
-        <p class="section_title">
+      <section id="s3">
+        <p class="section_title title_image">
           <img src="./asset/img/title-3.png" alt="" />
         </p>
+        <div class="section_slider">
         <div class="slider">
           <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -183,6 +185,11 @@
             </div>
           </div>
         </div>
+        <div class="swiper_button">
+          <div class="swiper-button-prev"><</div>
+          <div class="swiper-button-next">></div>
+        </div>
+      </div>
         <div class="section_footer">
           <p class="section_footer-title flex_center">
             <img src="./asset/img/icon-img.png" alt="" />GIẢI TRÍ SÔI ĐỘNG<img
@@ -195,11 +202,11 @@
           lưu
         </div>
       </section>
-      <section id="s4" class="flex_center">
-        <p class="section_title">
+      <section id="s4">
+        <p class="section_title title_image">
           <img src="./asset/img/title-4.png" alt="" />
         </p>
-
+        <div class="section_slider">
         <div class="slider">
           <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -213,6 +220,11 @@
                 <img src="./asset/img/s3.png" alt="" />
               </div>
             </div>
+            </div>
+          </div>
+          <div class="swiper_button">
+            <div class="swiper-button-prev"><</div>
+            <div class="swiper-button-next">></div>
           </div>
         </div>
         <div class="section_footer s4_footer flex_center">
@@ -230,14 +242,14 @@
           </p>
         </div>
       </section>
-      <section id="s5">
+      <section id="img_full">
         <div class="section_img-container">
           <img
             src="./asset/img/s4.png"
             alt="Di sản quốc tế hộ an đà nẳng"
             class="img_full-width"
           />
-          <div class="section_img-title">
+          <div class="section_img-title title_image">
             <img src="./asset/img/title-5.png" alt="" />
             <p>
               <strong>SHOPTEL - SHOPVILLA - MINI RESORT</strong><br />
@@ -252,7 +264,7 @@
             alt="Di sản quốc tế hộ an đà nẳng"
             class="img_full-width"
           />
-          <div class="section_img-title">
+          <div class="section_img-title title_image">
             <img src="./asset/img/title-6.png" alt="" />
             <p>
               <strong>100%</strong> sản phẩm sở hữu
@@ -264,7 +276,7 @@
           </div>
         </div>
       </section>
-      <section id="s6">
+      <section id="s5">
         <div class="layout flex_center">
           <p class="main-title">Layout Thiết Kế</p>
           <img
@@ -280,7 +292,7 @@
           />
         </div>
       </section>
-      <section id="s7">
+      <section id="s6">
         <div class="progress flex_center">
           <p class="main-title">Tiến độ xây dựng</p>
           <div class="progress_container">
@@ -311,7 +323,7 @@
           </div>
         </div>
       </section>
-      <section id="s8">
+      <section id="s7">
         <div class="libary flex_center">
           <p class="main-title">Thư Viện</p>
           <div class="libary_button">
@@ -320,12 +332,7 @@
             <a class="libary_button-item">Tài liệu</a>
           </div>
           <div class="libary_images">
-        
-              <!-- この名前は固定っぽい jsで呼び出しに使用する 幅指定 -->
-
               <div class="swiper-wrapper">
-                <!-- これも規定の名称。下のswiper-slideも同様 -->
-                <!-- スライドする画像 -->
                 <div class="swiper-slide">
                   <img src="./asset/img/s4.png" class="slide-item"></img>
                 </div>
@@ -344,8 +351,11 @@
                 <div class="swiper-slide">
                   <img src="./asset/img/s4.png" class="slide-item"></img>
                 </div>
+                
             </div>
+         
           </div>
+       
         </div>
       </section>
     </div>
