@@ -611,10 +611,20 @@ strong {
     width: 100%;
   }
   .description_item {
-    padding: 5rem 5rem;
+    padding: 5rem 0;
+  }
+  .description_content-list {
+    margin-left: 2rem;
+  }
+  .description_table-title {
+    font-size: 1.2rem;
   }
   .description_content-list > li {
     font-size: 1rem;
+  }
+  .description_table {
+    width: 100vw;
+    padding: 0 1rem;
   }
   .table_bordered > tbody {
     font-size: 1rem !important;
