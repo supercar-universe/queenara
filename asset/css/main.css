@@ -345,7 +345,7 @@ strong {
 }
 .slider .swiper-slide {
     transition: all 0.35s ease;
-    transform: scale(0.7);
+    transform: scale(0.75);
     opacity: 0.5;
 }
 .slider .swiper-slide > img {
@@ -712,7 +712,7 @@ strong {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2rem 0;
+        gap: 3rem 0;
         background-color: var(--main-clr);
     }
     .nav.mobile_show {
@@ -737,6 +737,7 @@ strong {
     }
     .description_item {
         padding: 5rem 0;
+        padding-top: 2rem;
     }
     .description_content-list {
         margin-left: 2rem;
