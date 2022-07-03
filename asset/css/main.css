@@ -730,6 +730,7 @@ strong {
         width: 25rem !important;
     }
     .description_container {
+        flex-direction: column;
         margin-top: -5.9rem;
         padding-top: 2rem;
         width: 100%;
@@ -757,9 +758,17 @@ strong {
     .table_bordered > tbody > tr > td {
         padding-left: 0.5rem;
     }
-    .description_title,
     .description_footer-title {
         display: none;
+    }
+    .description_title {
+        transform: rotate(90deg);
+        padding: 0;
+        margin-top: -8rem;
+        height: 30rem;
+    }
+    .description_item {
+        margin-top: -22rem;
     }
     .description_footer {
         margin-top: -7rem;

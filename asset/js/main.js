@@ -12,10 +12,7 @@ let header = $("#header"),
 $(".scroll_top").onclick = () => {
     window.scrollTo(0, 0);
 };
-let $swiper = $(".swiper-container"),
-    $bottomSlide = null,
-    $bottomSlideContent = null,
-    mySwiper = new Swiper(".swiper-container", {
+let mySwiper = new Swiper(".swiper-container", {
         spaceBetween: 1,
         slidesPerView: 2,
         centeredSlides: !0,
